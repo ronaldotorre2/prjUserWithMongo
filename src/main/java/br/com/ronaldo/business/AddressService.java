@@ -23,5 +23,4 @@ public class AddressService {
     public void deleteByUserId(String userId) {
         addressRepository.deleteByUserId(userId);
     }
-
 }
